@@ -22,7 +22,7 @@ def make_prediction():
         salary = round(prediction, 2)
     msg = "Standard salary for provided experience of  " + str(exp) + " years, would be: ₹ " + str(salary) + "/-- "
 
-    return render_template("index.html", prediction_text= msg)
+    return render_template("templates/index.html", prediction_text= msg)
 
 
 if __name__ == '__main__':
